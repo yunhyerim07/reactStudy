@@ -1,5 +1,5 @@
-import viteLogo from '/vite.svg'
 import { useState } from 'react';
+import viteLogo from '../public/vite.svg';
 import reactLogo from './assets/react.svg';
 import './App.css';
 
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-blue-300">Hello</h1>
+      <h1 className="text-5xl font-bold underline text-blue-300">Hello</h1>
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
